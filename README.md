@@ -3,14 +3,16 @@ Backend for my geolocation app built in Swift from my [YouTube Video!](http://yo
 
 ## How to use it
 1. Npm install the modules.
-2. Create a .env where you will have
-  * NODE_ENV = development
-  * PORT = 5000
-  * MONGO_URI = Your Cluster connection string from Atlas: MongoDB
+2. Create a .env where you will have:
+```
+  NODE_ENV = development
+  PORT = 5000
+  MONGO_URI = Your Cluster connection string from Atlas: MongoDB
+```
 3. Npm run dev
 
 ##  endpoints (GET & POST)
-http://localhost:5000/api/v1/user
+http://localhost:5000/api/v1/user <br>
 http://localhost:5000/api/v1/pins
 
 ## JSON Format - POST req
